@@ -26,7 +26,7 @@ export function DashboardSidebar({ open, onOpenChange }: { open: boolean; onOpen
       {/* Sidebar */}
       <aside
         className={cn(
-          "fixed md:relative left-0 top-16 md:top-0 h-[calc(100vh-4rem)] md:h-full w-56 sm:w-64 border-r border-primary/20 bg-gradient-to-b from-card/60 via-card/40 to-background/40 transition-all duration-300 z-40 md:z-0 overflow-y-auto backdrop-blur-sm",
+          "fixed md:relative left-0 top-16 md:top-0 h-[calc(100vh-4rem)] md:h-full w-56 sm:w-64 border-r border-primary/20 bg-linear-to-b from-card/60 via-card/40 to-background/40 transition-all duration-300 z-40 md:z-0 overflow-y-auto backdrop-blur-sm",
           !open && "-translate-x-full md:translate-x-0 md:w-16",
         )}
       >
