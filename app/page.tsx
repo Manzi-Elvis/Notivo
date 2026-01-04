@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* Features Section */}
       <section className="px-4 py-16 sm:py-20 md:px-6 lg:px-8 border-t border-border relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5 pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-r from-primary/5 via-transparent to-accent/5 pointer-events-none" />
         <div className="mx-auto max-w-6xl relative z-10">
           <motion.h2
             initial={{ opacity: 0 }}
