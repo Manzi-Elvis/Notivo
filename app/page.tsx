@@ -218,7 +218,7 @@ export default function Home() {
                 >
                   {plan.highlighted && (
                     <>
-                      <div className="absolute -right-12 -top-12 h-24 w-24 bg-gradient-to-br from-primary/20 to-accent/10 rounded-full blur-3xl" />
+                      <div className="absolute -right-12 -top-12 h-24 w-24 bg-linear-to-br from-primary/20 to-accent/10 rounded-full blur-3xl" />
                       <div className="absolute -left-8 -bottom-8 h-20 w-20 bg-gradient-to-tr from-secondary/15 to-primary/10 rounded-full blur-3xl" />
                       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary/60 via-accent/60 to-secondary/60" />
                     </>
