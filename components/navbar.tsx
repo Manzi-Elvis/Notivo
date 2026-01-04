@@ -30,7 +30,7 @@ export function Navbar() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 font-bold text-lg sm:text-xl">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary via-accent to-secondary flex items-center justify-center text-white font-bold text-sm sm:text-base shadow-lg shadow-primary/30">
+            <div className="h-8 w-8 rounded-lg bg-linear-to-br from-primary via-accent to-secondary flex items-center justify-center text-white font-bold text-sm sm:text-base shadow-lg shadow-primary/30">
               N
             </div>
             <span className="hidden sm:inline bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
