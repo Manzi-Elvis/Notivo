@@ -171,7 +171,7 @@ export default function Home() {
               { num: 3, title: "Get Notified Instantly", desc: "Receive alerts the moment anything changes" },
             ].map((step) => (
               <motion.div key={step.num} variants={fadeInUp} className="flex gap-6 sm:gap-8">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-linear-to-br from-primary via-accent to-secondary text-white font-bold text-lg shadow-lg shadow-primary/30">
                     {step.num}
                   </div>
