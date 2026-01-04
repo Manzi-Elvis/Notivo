@@ -25,7 +25,7 @@ const stagger = {
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-background via-background to-secondary/5">
+    <main className="min-h-screen bg-linear-to-br from-background via-background to-secondary/5">
       <Navbar />
 
       {/* Hero Section */}
@@ -44,7 +44,7 @@ export default function Home() {
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
               Never Miss a{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-secondary">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-primary via-accent to-secondary">
                 Change Again
               </span>
             </h1>
