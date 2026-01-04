@@ -54,7 +54,7 @@ export function DashboardSidebar({ open, onOpenChange }: { open: boolean; onOpen
                       : "text-muted-foreground hover:bg-card/50 hover:text-foreground hover:border-primary/20 border border-transparent",
                   )}
                 >
-                  <item.icon className="h-5 w-5 flex-shrink-0" />
+                  <item.icon className="h-5 w-5 shrink-0" />
                   {open && <span className="truncate">{item.label}</span>}
                 </Link>
               )
