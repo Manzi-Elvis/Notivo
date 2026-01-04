@@ -122,7 +122,7 @@ export default function Home() {
               <motion.div key={i} variants={fadeInUp}>
                 <Card className="rounded-xl border border-border/50 bg-card/50 backdrop-blur-sm p-6 h-full flex flex-col hover:border-primary/30 hover:shadow-lg hover:shadow-primary/10 transition-all duration-300">
                   <div
-                    className={`mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br ${
+                    className={`mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-linear-to-br ${
                       i % 3 === 0
                         ? "from-primary/30 to-accent/20"
                         : i % 3 === 1
