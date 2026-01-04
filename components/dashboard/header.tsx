@@ -32,7 +32,7 @@ export function DashboardHeader({ onMenuClick }: { onMenuClick: () => void }) {
         </Button>
 
         <div className="hidden sm:flex items-center gap-2 bg-input border border-border rounded-lg px-3 py-2 flex-1 max-w-xs">
-          <Search className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+          <Search className="h-4 w-4 text-muted-foreground shrink-0" />
           <input
             type="text"
             placeholder="Search monitors..."
