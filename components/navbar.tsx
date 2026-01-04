@@ -33,7 +33,7 @@ export function Navbar() {
             <div className="h-8 w-8 rounded-lg bg-linear-to-br from-primary via-accent to-secondary flex items-center justify-center text-white font-bold text-sm sm:text-base shadow-lg shadow-primary/30">
               N
             </div>
-            <span className="hidden sm:inline bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="hidden sm:inline bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">
               Notivo
             </span>
           </Link>
