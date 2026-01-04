@@ -63,7 +63,7 @@ export function Navbar() {
               </Button>
             </Link>
             <Link href="/dashboard">
-              <Button className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground">
+              <Button className="bg-linear-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground">
                 Get Started
               </Button>
             </Link>
