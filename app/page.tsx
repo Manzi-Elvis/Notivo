@@ -58,7 +58,7 @@ export default function Home() {
               <Link href="/dashboard" className="w-full sm:w-auto">
                 <Button
                   size="lg"
-                  className="w-full sm:w-auto bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-base text-primary-foreground"
+                  className="w-full sm:w-auto bg-linear-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-base text-primary-foreground"
                 >
                   Start Monitoring Free
                   <ArrowRight className="ml-2 h-5 w-5" />
