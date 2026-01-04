@@ -225,7 +225,7 @@ export default function Home() {
                   )}
                   <div className="relative z-10">
                     {plan.highlighted && (
-                      <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-primary/30 to-accent/30 text-primary mb-4">
+                      <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-linear-to-r from-primary/30 to-accent/30 text-primary mb-4">
                         Most Popular
                       </span>
                     )}
