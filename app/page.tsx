@@ -220,7 +220,7 @@ export default function Home() {
                     <>
                       <div className="absolute -right-12 -top-12 h-24 w-24 bg-linear-to-br from-primary/20 to-accent/10 rounded-full blur-3xl" />
                       <div className="absolute -left-8 -bottom-8 h-20 w-20 bg-linear-to-tr from-secondary/15 to-primary/10 rounded-full blur-3xl" />
-                      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary/60 via-accent/60 to-secondary/60" />
+                      <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-primary/60 via-accent/60 to-secondary/60" />
                     </>
                   )}
                   <div className="relative z-10">
