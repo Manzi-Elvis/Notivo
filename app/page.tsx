@@ -147,7 +147,7 @@ export default function Home() {
 
       {/* How It Works */}
       <section className="px-4 py-16 sm:py-20 md:px-6 lg:px-8 border-t border-border relative">
-        <div className="absolute inset-0 bg-gradient-to-l from-secondary/5 via-transparent to-primary/5 pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-l from-secondary/5 via-transparent to-primary/5 pointer-events-none" />
         <div className="mx-auto max-w-4xl relative z-10">
           <motion.h2
             initial={{ opacity: 0 }}
