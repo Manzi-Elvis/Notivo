@@ -241,7 +241,7 @@ export default function Home() {
                       <Button
                         className={`w-full font-semibold ${
                           plan.highlighted
-                            ? "bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground"
+                            ? "bg-linear-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground"
                             : "border border-primary/50 text-primary hover:bg-primary/10"
                         }`}
                         variant={plan.highlighted ? "default" : "outline"}
