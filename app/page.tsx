@@ -232,7 +232,7 @@ export default function Home() {
                     <h3 className="mb-2 text-xl sm:text-2xl font-bold">{plan.name}</h3>
                     <p className="mb-6 text-muted-foreground text-sm">{plan.description}</p>
                     <div className="mb-6">
-                      <span className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                      <span className="text-4xl sm:text-5xl font-bold bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">
                         ${plan.price}
                       </span>
                       <span className="text-muted-foreground">/month</span>
