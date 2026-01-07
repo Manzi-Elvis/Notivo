@@ -39,7 +39,7 @@ export default function MonitorsPage() {
           <h1 className="text-2xl sm:text-3xl font-bold mb-2">Monitors</h1>
           <p className="text-sm sm:text-base text-muted-foreground">Track and manage all your website monitors</p>
         </div>
-        <Button className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground w-full sm:w-auto">
+        <Button className="bg-linear-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground w-full sm:w-auto">
           <Plus className="mr-2 h-5 w-5" />
           New Monitor
         </Button>
