@@ -76,7 +76,7 @@ export default function TemplatesPage() {
                   </ul>
                 </div>
 
-                <Button className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground group text-sm sm:text-base">
+                <Button className="w-full bg-linear-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground group text-sm sm:text-base">
                   Use Template
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
