@@ -53,7 +53,7 @@ export default function DashboardPage() {
                   <p className="text-2xl sm:text-3xl font-bold">{stat.value}</p>
                 </div>
                 <div
-                  className={`h-10 w-10 sm:h-12 sm:w-12 rounded-lg bg-gradient-to-br flex items-center justify-center flex-shrink-0 ${
+                  className={`h-10 w-10 sm:h-12 sm:w-12 rounded-lg bg-linear-to-br flex items-center justify-center flex-shrink-0 ${
                     i % 3 === 0
                       ? "from-primary/30 to-accent/20"
                       : i % 3 === 1
