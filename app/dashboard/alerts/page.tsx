@@ -95,7 +95,7 @@ export default function AlertsPage() {
                       variant="ghost"
                       size="sm"
                       onClick={() => toggleAlert(alert.id)}
-                      className="h-10 w-10 p-0 flex-shrink-0"
+                      className="h-10 w-10 p-0 shrink-0"
                     >
                       {alert.enabled ? (
                         <ToggleRight className="h-6 w-6 text-primary" />
