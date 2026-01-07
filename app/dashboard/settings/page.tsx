@@ -103,7 +103,7 @@ export default function SettingsPage() {
 
           <div className="space-y-2 sm:space-y-3">
             <label className="flex items-start gap-3 p-3 sm:p-4 rounded-lg border border-border/50 hover:bg-card/50 cursor-pointer transition-colors">
-              <input type="checkbox" defaultChecked className="w-4 h-4 mt-1 flex-shrink-0" />
+              <input type="checkbox" defaultChecked className="w-4 h-4 mt-1 shrink-0" />
               <div>
                 <p className="font-medium text-xs sm:text-sm">Email alerts for changes</p>
                 <p className="text-xs text-muted-foreground">Get notified via email when monitors detect changes</p>
