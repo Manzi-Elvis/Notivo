@@ -47,7 +47,7 @@ export default function TemplatesPage() {
 
               <div className="relative z-10 flex items-start justify-between mb-4 sm:mb-6">
                 <div
-                  className={`h-10 w-10 sm:h-12 sm:w-12 rounded-lg bg-gradient-to-br flex items-center justify-center ${
+                  className={`h-10 w-10 sm:h-12 sm:w-12 rounded-lg bg-linear-to-br flex items-center justify-center ${
                     i % 4 === 0
                       ? "from-primary to-accent"
                       : i % 4 === 1
