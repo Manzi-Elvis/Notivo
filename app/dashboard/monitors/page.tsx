@@ -68,7 +68,7 @@ export default function MonitorsPage() {
 
               <div className="relative z-10 flex items-start justify-between mb-4">
                 <div
-                  className={`h-10 w-10 rounded-lg bg-gradient-to-br flex items-center justify-center ${
+                  className={`h-10 w-10 rounded-lg bg-linear-to-br flex items-center justify-center ${
                     idx % 3 === 0
                       ? "from-primary to-accent"
                       : idx % 3 === 1
