@@ -95,7 +95,7 @@ export default function MonitorsPage() {
                     </>
                   ) : (
                     <>
-                      <CheckCircle className="h-4 w-4 text-success flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-success shrink-0" />
                       <span className="text-xs sm:text-sm font-medium text-success">Watching</span>
                     </>
                   )}
