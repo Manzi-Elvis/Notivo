@@ -42,7 +42,7 @@ export default function TemplatesPage() {
               }`}
             >
               {i % 2 === 1 && (
-                <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute inset-0 bg-linear-to-br from-secondary/5 via-transparent to-transparent pointer-events-none" />
               )}
 
               <div className="relative z-10 flex items-start justify-between mb-4 sm:mb-6">
