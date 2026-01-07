@@ -119,7 +119,7 @@ export default function SettingsPage() {
             </label>
 
             <label className="flex items-start gap-3 p-3 sm:p-4 rounded-lg border border-border/50 hover:bg-card/50 cursor-pointer transition-colors">
-              <input type="checkbox" className="w-4 h-4 mt-1 flex-shrink-0" />
+              <input type="checkbox" className="w-4 h-4 mt-1 shrink-0" />
               <div>
                 <p className="font-medium text-xs sm:text-sm">Marketing emails</p>
                 <p className="text-xs text-muted-foreground">Receive updates about new features and offers</p>
