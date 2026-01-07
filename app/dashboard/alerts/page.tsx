@@ -69,7 +69,7 @@ export default function AlertsPage() {
               >
                 <div className="flex flex-col sm:flex-row sm:items-center gap-4">
                   <div
-                    className={`h-10 w-10 sm:h-12 sm:w-12 rounded-lg bg-gradient-to-br flex items-center justify-center flex-shrink-0 ${
+                    className={`h-10 w-10 sm:h-12 sm:w-12 rounded-lg bg-linear-to-br flex items-center justify-center flex-shrink-0 ${
                       idx % 4 === 0
                         ? "from-primary to-accent"
                         : idx % 4 === 1
