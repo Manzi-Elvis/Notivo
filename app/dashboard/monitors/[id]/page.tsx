@@ -36,7 +36,7 @@ export default function MonitorDetailPage({ params }: { params: { id: string } }
               <div key={i} className="relative pl-8">
                 {/* Timeline line */}
                 {i !== changeHistory.length - 1 && (
-                  <div className="absolute left-[7px] top-10 w-0.5 h-12 bg-gradient-to-b from-primary to-primary/20" />
+                  <div className="absolute left-1.75 top-10 w-0.5 h-12 bg-gradient-to-b from-primary to-primary/20" />
                 )}
 
                 {/* Timeline dot */}
