@@ -90,7 +90,7 @@ export default function MonitorsPage() {
                 <div className="flex items-center gap-2 mb-4">
                   {monitor.status === "changed" ? (
                     <>
-                      <AlertCircle className="h-4 w-4 text-warning flex-shrink-0" />
+                      <AlertCircle className="h-4 w-4 text-warning shrink-0" />
                       <span className="text-xs sm:text-sm font-medium text-warning">Changed</span>
                     </>
                   ) : (
